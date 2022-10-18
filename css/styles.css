@@ -673,6 +673,7 @@ img {
 
 .project-thumb {
     position: relative;
+    overflow: hidden;
 }
 
 .project-thumb::before {
@@ -691,16 +692,11 @@ img {
 
 .project-thumb-text {
     position: absolute;
-    content: "";
-    width: 322px;
-    height: 168px;
-    padding: 63px 24px;
-    top: 50%;
-    left: 0;
+    top: 63px;
+    left: 24px;
     font-size: 18px;
     line-height: 1.55;
     color: var(--bacground-priamary);
-
 }
 
 
